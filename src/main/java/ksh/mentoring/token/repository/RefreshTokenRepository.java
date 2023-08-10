@@ -1,6 +1,6 @@
-package ksh.mentoring.user.repository;
+package ksh.mentoring.token.repository;
 
-import ksh.mentoring.user.entity.RefreshToken;
+import ksh.mentoring.token.entity.RefreshToken;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

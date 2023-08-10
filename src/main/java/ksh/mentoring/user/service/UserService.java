@@ -9,4 +9,6 @@ public interface UserService {
      */
     public void register(UserRegisterRequest request);
 
+    public User findById(Long userId);
+
 }

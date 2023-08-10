@@ -10,7 +10,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 import java.util.Optional;
 
@@ -25,7 +24,7 @@ class UserControllerTest {
     @DisplayName("회원가입 성공")
     @Test
     void register_success() {
-        //given, 어떤 데이터가 주어졌을 때
+        //given
         User user = User.builder()
                 .email("test@gmail.com")
                 .password("1234")
@@ -35,10 +34,10 @@ class UserControllerTest {
                 .duty(UserDuty.BACKEND)
                 .build();
 
-        //when, 어떤 동작을 하면
+        //when
         userRepository.save(user);
 
-        //then, 어떤 결과가 나와야 한다.
+        //then
         Optional<User> findUser = userRepository.findByEmail(user.getEmail());
         Assertions.assertThat(findUser.isPresent()).isTrue();
 

@@ -1,4 +1,4 @@
-package ksh.mentoring.user.entity;
+package ksh.mentoring.token.entity;
 
 import lombok.AccessLevel;
 import lombok.Getter;

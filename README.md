@@ -35,7 +35,7 @@
 * 기본적으로 멘토와 멘티의 1:1 채팅을 원칙으로 합니다.
   
 # 🗺ERD
-![ERD](https://github.com/kimsungho93/mentoring/assets/87847853/ff64ca17-f038-4af0-98d4-bda519a2ab82)
+![ERD](https://d2sqqdb3t4xrq5.cloudfront.net/upload/6HWQutwPGjkxp4uwj/NHd0Tmc1Wk1ueXZiYzJ0NzVfQWtkV3VGRzhzN1RlSlFnOWoucG5n)
 
 
 # 🤔Trouble Shooting
